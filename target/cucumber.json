@@ -1,0 +1,307 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "Invalid email",
+        "description": "",
+        "id": "error-messages-on-the-login-page;invalid-email",
+        "after": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 4,
+            "name": "the user is on the login page",
+            "match": {
+              "location": "LoginStepDefs.the_user_is_on_the_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 5,
+            "name": "the user tries to register an invalid email",
+            "match": {
+              "location": "LoginStepDefs.the_user_tries_to_register_an_invalid_email()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "the system should display error message \"Invalid email address.\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Invalid email address.\"",
+                  "offset": 40
+                }
+              ],
+              "location": "LoginStepDefs.the_system_should_display_error_message(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ahmed"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 8,
+        "name": "blank email",
+        "description": "",
+        "id": "error-messages-on-the-login-page;blank-email",
+        "after": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "the user is on the login page",
+            "match": {
+              "location": "LoginStepDefs.the_user_is_on_the_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "the user tries to register blank email",
+            "match": {
+              "location": "LoginStepDefs.the_user_tries_to_register_blank_email()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "the system should display error message \"Invalid email address.\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Invalid email address.\"",
+                  "offset": 40
+                }
+              ],
+              "location": "LoginStepDefs.the_system_should_display_error_message(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ahmed"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 23,
+        "name": "multiple logins",
+        "description": "",
+        "id": "error-messages-on-the-login-page;multiple-logins;;2",
+        "after": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 16,
+            "name": "the user is on the login page",
+            "match": {
+              "location": "LoginStepDefs.the_user_is_on_the_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 17,
+            "name": "the user enters \"kamal@fr.com\" and \"lalala\"",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 18,
+            "name": "the user clicks on submit button",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 19,
+            "name": "the user should be logged in",
+            "match": {},
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ahmed"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 24,
+        "name": "multiple logins",
+        "description": "",
+        "id": "error-messages-on-the-login-page;multiple-logins;;3",
+        "after": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 16,
+            "name": "the user is on the login page",
+            "match": {
+              "location": "LoginStepDefs.the_user_is_on_the_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 17,
+            "name": "the user enters \"ahmed@trk.com\" and \"blabla\"",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 18,
+            "name": "the user clicks on submit button",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 19,
+            "name": "the user should be logged in",
+            "match": {},
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ahmed"
+          }
+        ]
+      }
+    ],
+    "name": "Error messages on the login page",
+    "description": "",
+    "id": "error-messages-on-the-login-page",
+    "keyword": "Feature",
+    "uri": "src/test/resources/com/prestashop/features/account/login_page_message_validation.feature",
+    "tags": []
+  }
+]

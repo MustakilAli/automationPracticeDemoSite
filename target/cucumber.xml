@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="12.014769">
+<testcase classname="login" name="verify user name and last name" time="12.014769">
+<failure message="org.junit.ComparisonFailure: expected:&lt;[John Smith]&gt; but was:&lt;[ibadat kyzy]&gt;&#10;&#9;at org.junit.Assert.assertEquals(Assert.java:115)&#10;&#9;at org.junit.Assert.assertEquals(Assert.java:144)&#10;&#9;at com.prestashop.step_definitions.LoginStepDefs.users_full_name_should_be_displayed(LoginStepDefs.java:48)&#10;&#9;at ✽.users full name &quot;John&quot; &quot;Smith&quot; should be displayed(src/test/resources/com/prestashop/features/account/login_page.feature:13)&#10;"><![CDATA[Given the user is on the login page.........................................passed
+When I login using username "nitoyey@dumoac.net" and password "password"....passed
+Then users full name "John" "Smith" should be displayed.....................failed
+
+StackTrace:
+org.junit.ComparisonFailure: expected:<[John Smith]> but was:<[ibadat kyzy]>
+	at org.junit.Assert.assertEquals(Assert.java:115)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at com.prestashop.step_definitions.LoginStepDefs.users_full_name_should_be_displayed(LoginStepDefs.java:48)
+	at ✽.users full name "John" "Smith" should be displayed(src/test/resources/com/prestashop/features/account/login_page.feature:13)
+]]></failure>
+</testcase>
+</testsuite>
